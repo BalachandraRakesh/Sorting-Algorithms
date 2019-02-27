@@ -40,7 +40,7 @@ def quickSort(arr,low,high):
         quickSort(arr, pi+1, high)
         print(arr)
     else:
-        print("shizz")
+        print("Error")
 
 A = [23,12,1,45,65,67,87,21,19,0,4,3,8,89,76,99,123,22,7]
 n = len(A)-1
